@@ -1,0 +1,81 @@
+img{
+  position: absolute;
+}
+
+.chou{
+  width: 80px;
+transition: all 1s;
+}
+
+.backimg{
+
+  left:0;
+  top:0;
+}
+
+#backimg1{
+  pointer-events: none;
+}
+
+.foo{
+  width: 30px;
+  transition: all 0.3s;
+}
+
+#foo0{
+  left:400px;
+  top:240px;
+}
+
+#foo1{
+  left:500px;
+  top:220px;
+}
+
+#foo2{
+  left:400px;
+  top:280px;
+}
+
+#foo3{
+  left:650px;
+  top:300px;
+}
+
+#foo4{
+  left:780px;
+  top:250px;
+}
+
+#bt0{
+position: absolute;
+  left: 100px;
+  top: 350px;
+}
+
+#bt1{
+  left: 300px;
+  top: 400px
+}
+
+#bt2{
+  left: 600px;
+  top: 350px;
+}
+
+#message{
+position: absolute;
+z-index: 1;
+width:400px;
+height: 100px;
+left: 20px;
+top: 20px;
+background-color: rgb(255,255,255,0.6)
+font-size: 30px;
+color: red;
+padding: 20px;
+pointer-events: none;
+}
+
+
+
